@@ -1,0 +1,10 @@
+diff -up XML-NamespaceSupport-1.10/Makefile.PL.old XML-NamespaceSupport-1.10/Makefile.PL
+--- XML-NamespaceSupport-1.10/Makefile.PL.old	2009-05-28 15:49:59.000000000 +0200
++++ XML-NamespaceSupport-1.10/Makefile.PL	2009-10-07 10:56:19.646648385 +0200
+@@ -9,5 +9,5 @@ build_requires 'Test::More' => '0.47';
+ 
+ auto_set_repository;
+ auto_manifest;
+-auto_install;
++#auto_install;
+ WriteAll;
